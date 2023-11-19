@@ -1,0 +1,126 @@
+body {
+    background-color: rgb(239, 255, 255);
+}
+
+header {
+    background-color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 0 rgb(24, 196, 196);
+}
+
+/* Think of other color */
+a.nav:hover {
+    color: plum;
+}
+
+header * {
+    display: inline;
+}
+
+header, li {
+    margin: 20px;
+}
+
+header, li, a {
+    color: black;
+    text-decoration: none;
+}
+
+
+h1, h2, h3 {
+    display: flex;
+    font-family: Montserrat;
+}
+
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+p, li {
+    font-family: Montserrat;
+
+}
+
+#biography, #facts {
+    background-color: rgb(213, 252, 252);
+}
+
+.Hobbies {
+    border-radius: 5%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#goals, #contact {
+    margin-bottom: 50px;
+}
+
+#contact {
+    font-size: 1.25rem;
+}
+
+#img-facts{
+    border-radius: 5%;
+}
+
+#facts {
+    border: 3px dotted lightgrey;
+}
+
+a.one:hover {
+    color: plum;
+}
+
+/* Think of other table style */
+table, th, td {
+    border: 1px dashed;
+    width: 500px;
+    text-align: center;
+    margin: 20px;
+}
+
+footer {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "header header"
+    "mid mid"
+    "footer footer";
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: pink;
+    }
+  }
