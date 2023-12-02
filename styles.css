@@ -56,6 +56,19 @@ p, li {
     background-color: rgb(213, 252, 252);
 }
 
+.My-But {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: palevioletred;
+}
+
 .Hobbies {
     border-radius: 5%;
     margin-left: 100px;
@@ -123,4 +136,11 @@ footer {
     body {
       background-color: pink;
     }
-  }
+}
+
+.even {
+    color: red;
+}
+.odd {
+    color: blue;
+}
