@@ -33,7 +33,7 @@ document.getElementById('btn-counter').onclick = () => {
 // Incrementing Button + If-Else
 
 window.onload = function(){
-    for(var i = 1; i < 100; i++){
+    for(var i = 1; i < 101; i++){
         var num  = document.getElementById('numbers');
         var order = document.createElement('li');
         if (i % 2 == 0){
